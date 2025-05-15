@@ -1,35 +1,41 @@
 @import url(<link rel="stylesheet" href="https://use.typekit.net/gxv0mgk.css">);
 
-body{font-family: "proxima-nova", sans-serif ;
-background-color: #eef3f4;
-height: 100%;
+body{
+    font-family: "proxima-nova", sans-serif ;
+    background-color: #eef3f4;
+    height: 200vh;
 }
 
 /* --header - Logo and login section Starts-- */
-.box-container{box-sizing: border-box 600px;
-    background-color: #ffffff
-    ;
-    padding: 150px;
-    
-    
+.box-container{
+    border: 1px solid grey;
+    border-color: ;
+    box-sizing: border-box 600px,;
+    background-color: #ffffff;
+    margin: 300px;
+    margin-top: 50px;    
+    padding: 100px;
     }
-    .header-decoration{display: flex;
+
+.header-decoration{display: flex;
     align-items: center;
     justify-content: space-between;}
-    .login-button{background-color: transparent;
-        font-size: 14px;
+
+.login-button{
+    background-color: transparent;
+    font-size: 14px;
     border: none;
-cursor: pointer;
+    cursor: pointer;
 }
 
 .login-button:hover{
  
     transition: 0.7s all ease-out;
     color: #87c241;
-   font-family: "proxima-nova", sans-serif;
-font-size: 14px;
-font-weight: bold;
-font-style: normal;
+    font-family: "proxima-nova", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
     
 }
     
@@ -41,7 +47,7 @@ font-style: normal;
    
     display: flex;
     align-items: center;
-   
+    gap: 40px;
    
 }
 .main-text{
@@ -57,9 +63,6 @@ width: 469px;
 height: 469px;
 align-items: center;
 margin-top: 20px;
-
 }
-
-
 
 /* --First Container Ends-- */
