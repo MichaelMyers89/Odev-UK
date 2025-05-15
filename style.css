@@ -11,6 +11,7 @@ height: 100%;
     ;
     padding: 150px;
     
+    
     }
     .header-decoration{display: flex;
     align-items: center;
@@ -40,7 +41,6 @@ font-style: normal;
    
     display: flex;
     align-items: center;
-    
    
    
 }
