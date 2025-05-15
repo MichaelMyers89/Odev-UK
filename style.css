@@ -1,0 +1,17 @@
+@import url(<link rel="stylesheet" href="https://use.typekit.net/gxv0mgk.css">);
+
+body{font-family: "proxima-nova", sans-serif ;
+background-color: #eef3f4;}
+
+/* --header - Logo and login section Starts-- */
+.box-container{box-sizing: border-box;
+    background-color: #ffffff
+    ;
+    padding: 100px;
+    }
+    .header-decoration{display: flex;
+    align-items: center;
+
+/* --header - Logo and login section Ends-- */
+/* --First Container Starts-- */
+/* --First Container Ends-- */
