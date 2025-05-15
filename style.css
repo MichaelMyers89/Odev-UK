@@ -1,17 +1,36 @@
 @import url(<link rel="stylesheet" href="https://use.typekit.net/gxv0mgk.css">);
 
 body{font-family: "proxima-nova", sans-serif ;
-background-color: #eef3f4;}
+background-color: #eef3f4;
+height: 100%;}
 
 /* --header - Logo and login section Starts-- */
-.box-container{box-sizing: border-box;
+.box-container{box-sizing: border-box 600px;
     background-color: #ffffff
     ;
-    padding: 100px;
+    padding: 150px;
+    
     }
     .header-decoration{display: flex;
     align-items: center;
+    justify-content: space-between;}
+    .login-button{background-color: transparent;
+        font-size: 14px;
+    border: none;
+cursor: pointer;}
+.login-button:hover{
+    transition: 0,5s;
+    font-weight: bold;
+}
+    
 
 /* --header - Logo and login section Ends-- */
 /* --First Container Starts-- */
+
+.container-items{
+    display: flex;
+
+
+}
+
 /* --First Container Ends-- */
