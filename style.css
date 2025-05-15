@@ -19,8 +19,14 @@ height: 100%;}
     border: none;
 cursor: pointer;}
 .login-button:hover{
-    transition: 0,5s;
-    font-weight: bold;
+ 
+    transition: 0.7s all ease-out;
+    color: #87c241;
+   font-family: "proxima-nova", sans-serif;
+font-size: 14px;
+font-weight: bold;
+font-style: normal;
+    
 }
     
 
