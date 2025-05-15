@@ -64,5 +64,22 @@ height: 469px;
 align-items: center;
 margin-top: 20px;
 }
-
+.first-container-button{
+    background-color: transparent;
+    color: #87c241;
+    border-style: bold;
+    border-color: #87c241;
+    border-radius: 9px;
+    width: 190px;
+    height: 45px;
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+   
+}
+.first-container-button:hover {
+    background-color: #87c241;
+    color: #ffffff;
+    transition: 0.5s all ease-out;
+}
 /* --First Container Ends-- */
