@@ -17,7 +17,9 @@ height: 100%;}
     .login-button{background-color: transparent;
         font-size: 14px;
     border: none;
-cursor: pointer;}
+cursor: pointer;
+}
+
 .login-button:hover{
  
     transition: 0.7s all ease-out;
@@ -34,9 +36,15 @@ font-style: normal;
 /* --First Container Starts-- */
 
 .container-items{
+   
     display: flex;
-
-
+    align-items: center;
+    padding: 4px 0;
+   
+}
+.header-text{
+justify-content: flex-start
+;
 }
 
 /* --First Container Ends-- */
