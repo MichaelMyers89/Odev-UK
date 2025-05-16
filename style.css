@@ -22,9 +22,12 @@ body{
     padding: 100px;
     }
 
-.header-decoration{display: flex;
+.header-decoration{
+    display: flex;
     align-items: center;
-    justify-content: space-between;}
+    justify-content: space-between;
+    
+}
 
 .modal-show{
     background-color: transparent;
