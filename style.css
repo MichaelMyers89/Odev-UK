@@ -37,7 +37,17 @@ body{
     font-style: normal; 
     
 } 
- 
+.modal{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 460px;
+    background-color: azure;
+    border-radius: 40px;
+    position: relative;
+  
+}
+
 
 /* --header - Logo and login section Ends-- */
 /* --First Container Starts-- */
