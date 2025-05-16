@@ -21,24 +21,23 @@ body{
     align-items: center;
     justify-content: space-between;}
 
-.login-button{
+.modal-show{
     background-color: transparent;
     font-size: 14px;
     border: none;
     cursor: pointer;
-}
-
-.login-button:hover{
- 
+     text-decoration: none;
+    }
+.modal-show:hover{
     transition: 0.7s all ease-out;
     color: #87c241;
     font-family: "proxima-nova", sans-serif;
     font-size: 14px;
     font-weight: bold;
-    font-style: normal;
+    font-style: normal; 
     
-}
-    
+} 
+ 
 
 /* --header - Logo and login section Ends-- */
 /* --First Container Starts-- */
@@ -83,7 +82,5 @@ margin-top: 20px;
     color: #ffffff;
     transition: 0.5s all ease-out;
 }
-.popup{
-    
-}
+
 /* --First Container Ends-- */
