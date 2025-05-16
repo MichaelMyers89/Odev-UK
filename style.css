@@ -4,7 +4,12 @@ body{
     font-family: "proxima-nova", sans-serif ;
     background-color: #eef3f4;
     height: 100vh;
+    margin: auto ;
+   display: flex;
+   flex-direction: column;
+   
 }
+
 
 /* --header - Logo and login section Starts-- */
 .box-container{
@@ -12,7 +17,7 @@ body{
     border-color: ;
     box-sizing: border-box 600px,;
     background-color: #ffffff;
-    margin: 300px;
+    margin: 80px;
     margin-top: 50px;    
     padding: 100px;
     }
@@ -38,28 +43,70 @@ body{
     
 } 
 .modal{
+    
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 400px;
     height: 460px;
     background-color: azure;
     border-radius: 40px;
     position: relative;
-    gap: 10px
-    ;
+    gap: 10px;
+   
   
+}
+.hidden{
+    display: none;
+}
+.hidden-account-style{display: flex;
+flex-direction: row;
+margin-right: 250px;}
+.input-size{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    width: 320px;
+    height: 40px;
 }
 
 .list-items{
     list-style: none;
     display: flex;
     flex-direction: row;
+    align-items: center;
     gap: 50px;
+    
 
 }
-.list-text{text-decoration: none;}
-.pop-login-modal{
+.list-text{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    font-size: 14px;
+  
+}
+.pop-login-button{
+    display: flex;
+    justify-content: center;
     
+}
+.pop-login-modal{
+    background-color: #87c241;
+    color: #ffffff;
+    font-family: "proxima-nova", sans-serif ;
+    width: 320px;
+    height: 50px;
+    border-color: #87c241;
+    font-weight: 800;
+    font-size: 28px;
+    border-radius: 7px;
+    border-style: hidden;
+    align-items: center;
+justify-content: center;
+
 }
 /* --header - Logo and login section Ends-- */
 /* --First Container Starts-- */
@@ -97,6 +144,7 @@ margin-top: 20px;
     font-family: "proxima-nova", sans-serif;
     font-weight: 800;
     font-size: 20px;
+    box-shadow: none;
    
 }
 .first-container-button:hover {
@@ -106,3 +154,16 @@ margin-top: 20px;
 }
 
 /* --First Container Ends-- */
+/* --main box starts */
+
+.main-container{
+    display: flex;
+    flex-direction: row;
+   
+}
+
+
+.main-list-style{
+    list-style: none;
+    
+}
